@@ -1,0 +1,530 @@
+<html>
+    <head>
+        <title>Project</title>
+        <link rel="stylesheet" href="dist/css/bootstrap.css">
+        <style>
+            #section1{
+                background-color: rgb(237, 213, 75);
+                padding: 3;
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                
+
+            }
+            #section2{
+                background-color: rgb(121, 120, 113);
+            }
+            #footer{
+                background-color: rgb(135, 240, 205);
+            }
+            #section7{
+                background-color: rgb(186, 240, 151);
+
+            }
+             img:hover{
+                transform: scale(1.2);
+                transition: 3s;
+            }  
+        </style>
+        <script src="dist/js/bootstrap.js"></script>
+    </head>
+    <body>
+        <!-- section one (navbar) starts here  -->
+        <section class="row">
+            <div class="col-lg-12">
+                <!-- below tag element will hold all the content of the navbar -->
+                 <nav class="navbar  navbar-expand-lg navbar-light " style="background-color:white;">
+                    <a class="navbar-brand" href="#">
+                     <img src="images/m.jpg" alt="" width="100px" height="80px" class="d-block">
+                      <a href="index.html" class="navbar-brand" style="font-weight: 800; font-size: xx-large; font-family:Georgia, 'Times New Roman', Times, serif;"> <b><i>MUSICAL BASE</i></b></a>
+
+                    <!-- below is the toggler/hamburger button to either collapse/expand content depending on the different sizes.-->
+                     <button class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarcontents">
+                
+                     <span class="navbar-toggler-icon"></span>
+                    </button>
+ 
+                     <div id="navbarcontents" class="navbar-collapse collapse">
+                        <div class="navbar-nav">
+                            <a href="index.html" class="nav-link" style="font-style: oblique; color: black;">Home</a>
+                            <a href="lessons.html" class="nav-link" style="font-style: oblique; color: black;">Lessons</a>
+                            <a href="aboutus.html" class="nav-link" style="font-style: oblique; color: black;">About us</a>
+                           
+                        </div>
+
+                     </div>
+
+
+                 </nav>
+
+            </div>
+         </section>
+         <!-- section one of (navbar) ends here  -->
+          <section class="row">
+         <!-- CAROUSEL START -->
+      <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators (dots) -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="3"></button>
+      </div>
+
+      <!-- Images -->
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="images/music1.png" class="d-block w-100" alt="" height="400px">
+          <div class="carousel-caption d-none d-md-block " style="color: rgb(33, 27, 27); text-decoration-color: black;">
+            <h3 style="font-family: 'Times New Roman', Times, serif; font-size: 55px;"><i>MUSIC BASE</i></h3>
+            <p>A cozy music instrument shop filled with character and sound.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/music2.jpg" class="d-block w-100" alt="Trending Fashion" height="400px">
+          <div class="carousel-caption d-none d-md-block " style="color: rgb(12, 193, 75); text-decoration-color: black;">
+            <h3><i>MUST HAVE DEAL</i></h3>
+            <p style="font-family: 'Times New Roman', Times, serif; font-size: 25px;">A special in-store offer thats hard to miss: pianos at 50% off for a limited time</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/music3.jpg" class="d-block w-100" alt="Workplace Uniforms" height="400px">
+          <div class="carousel-caption d-none d-md-block ">
+            <h3 style="color: black;">Check It Now</h3>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/music4.jpg" class="d-block w-100" alt="Custom Designs" height="400px">
+          <div class="carousel-caption d-none d-md-block ">
+            <h3>BAND SETUP</h3>
+            <p>Want band setup , give us a call</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev" style="color: aliceblue;">
+        <span class="carousel-control-prev-icon" style="color: aliceblue;"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" style="color: antiquewhite;"></span>
+      </button>
+
+    </div>
+    </section>
+    <!-- CAROUSEL END --> 
+
+
+        <!-- section three starts here  -->
+      
+         <section class="row" id="section1">
+            <h1 style="color: white; text-decoration: underline;"><i>BRASS INSTRUMENTS</i></h1>
+            <div class="col-lg-3 text-center">
+                <div class="card-shadow">
+                    <div class="card-header bg-light">
+                        <h4><i><b>Tuba</b></i></h4>
+                        
+                    </div>
+                    <div class="card-body bg-warning">
+                        <img src="images/tuba.brass.jpg" alt="" width="100%" height="250px">
+                    </div>
+                    <div class="card-footer ">
+                        <p>A tuba is the largest and lowest-pitched instrument in the brass family. It’s known for its deep, rich sound that forms the foundation of many bands and orchestras.</p>
+                        <b class="text-info">Ksh 55555</b>
+                        <br>
+                        <span class="badge bg-danger">2-month deal</span>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 text-center">
+                <div class="card-shadow">
+                    <div class="card-header bg-light">
+                        <h4><i><b>Cornet</b></i></h4>
+                        
+                    </div>
+                    <div class="card-body bg-warning">
+                        <img src="images/cornet.brass.jpg" alt="" width="100%" height="250px">
+                    </div>
+                    <div class="card-footer">
+                        <p>A cornet is a brass instrument that looks similar to a trumpet but has a warmer, rounder sound. It’s smaller than a trumpet and has more tightly curved tubing, which gives it a softer, more mellow tone.</p>
+                        <b class="text-info">Ksh 23555</b>
+                        <br>
+                        <span class="badge bg-danger">3-piece deal</span>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 text-center">
+                <div class="card-shadow">
+                    <div class="card-header bg-light">
+                        <h4><i><b>Orchestra</b></i></h4>
+                        
+                    </div>
+                    <div class="card-body bg-warning">
+                        <img src="images/orchestra.brass.jpg" alt="" width="100%" height="250px">
+                    </div>
+                    <div class="card-footer">
+                        <p>An orchestra is a large musical ensemble made up of different families of instruments playing together under the direction of a conductor. It’s designed to create a wide range of sounds—from very soft and delicate to powerful and dramatic.</p>
+                        <b class="text-info">Ksh 35305</b>
+                        <br>
+                        <span class="badge bg-danger">10% discount</span>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 text-center">
+                <div class="card-shadow">
+                    <div class="card-header bg-light">
+                        <h4><i><b>Sousaphone</b></i></h4>
+                        
+                    </div>
+                    <div class="card-body bg-warning">
+                        <img src="images/sousaphone.brass.jpg" alt="" width="100%" height="250px">
+                    </div>
+                    <div class="card-footer">
+                        <p>A sousaphone is a large brass instrument designed to be played while standing or marching. It’s closely related to the tuba and plays the same low, bass notes, but its shape wraps around the player’s body, making it easier to carry.</p>
+                        <b class="text-info">Ksh 23555</b>
+                        <br>
+                        <span class="badge bg-danger">3-piece deal</span>
+                    </div>
+                </div>
+            </div>
+        </section> <hr><hr>
+        <!-- section three ends here  -->
+
+        
+
+      <center>  <h1><i>STRING INSTRUMENTS</i></h1></center>
+        <center><img src="images/pack.jpg" alt="" height="300px" width="600px"></center>
+
+        <!-- section four starts here  -->
+         <section class="row" id="section2">
+            <h2 style="color: brown;text-decoration: dashed;"><i><b>String Instruments</b></i></h2>
+            <div class="col-lg-4 text-center">
+                <img src="images/violinstring.jpg" alt="" width="250px" height="250px">
+
+                <h5 style="color: rgb(99, 18, 92);">String Violin</h5>
+                <p>The violin is a small string instrument played with a bow, producing bright expressive melodies.</p>
+                <b class="text-primary">Ksh 33333</b> <br>
+                <span class="badge bg-danger">deal</span>
+
+            </div>
+             <div class="col-lg-4 text-center">
+                <img src="images/string2cello.jpg" alt="" width="250px" height="250px">
+
+                <h5 style="color: rgb(99, 18, 92);">Cello</h5>
+                <p>The cello is a large string instrument played sitting down, producing deep, warm, emotional tones.</p>
+                <b class="text-primary">Ksh 33333</b> <br>
+                <span class="badge bg-danger">deal</span>
+
+            </div>
+             <div class="col-lg-4 text-center">
+                <img src="images/traditiinal pink.webp" alt="" width="250px" height="250px">
+
+               <center> <h5 style="color: rgb(99, 18, 92);">Traditional Guitar</h5></center>
+                <p>The traditional guitar is a wooden string instrument played by strumming or plucking melodies worldwide.</p>
+                <b class="text-primary">Ksh 33333</b> <br>
+                <span class="badge bg-danger">deal</span>
+
+            </div>
+            
+            
+
+
+        </section> <hr> <hr>
+        <!-- section four starts here  -->
+
+
+
+        <!-- section five starts here  -->
+        <section class="row">
+            <h1><i><b><center>KEYBOARDS</center></b></i></h1>
+            <br>
+            <div class="col-md-2">
+                <img src="images/piano.keyboard.jpg" alt="" height="400px" width="200px">
+            </div><br>
+          <div class="col-md-2" style="color: rgb(44, 10, 75);">
+                <h3><b>Piano</b></h3>
+                <h5><u>Description</u></h5>
+               <center> <i><p>The piano is a versatile keyboard instrument where felt-covered hammers strike strings, allowing performers to create melodies, harmonies, and rhythms. It can sound soft and intimate or powerful and dramatic solo playing.</p></i></center>
+               <ul>
+                <li>The piano can play both melody and harmony at the same time.</li>
+                <li>It has one of the widest pitch ranges of any instrument, spanning over seven octaves.</li>
+               </ul>
+                
+            </div>
+            <div class="col-md-2">
+                <img src="images/electrickeyboard..jpg" alt="" height="200px" width="200px"> 
+            </div>
+            <div class="col-md-2" style="color: rgb(122, 130, 11);">
+                <h3><b>Electric Keyboard</b></h3>
+                <h5><u>Description</u></h5>
+               <center> <i><p> An electric keyboard is a portable electronic instrument that produces sounds digitally, imitating pianos, organs, and synthesizers, commonly used for practice, performance, and music production across many genres.</p></i></center>
+              <ol type="1">
+                <li>Portable and lightweight instrument</li>
+                <li>Produces many different sounds</li>
+              </ol>
+            </div>
+            <div class="col-lg-2" >
+                <img src="images/traditionalpiano.keyboard.jpg" alt="" width="200px" height="400px">
+            </div>
+            <div class="col-lg-2" style="color: rgb(84, 18, 18);">
+                <h3><b>Traditional Keyboard</b></h3>
+                <h5><u>Description</u></h5>
+               <center> <i><p>A traditional keyboard is a device with keys arranged in rows, allowing users to input letters, numbers, and commands into computers efficiently and accurately. </p></i></center>
+              <ol type="a">
+                <li>Good keys and longevity</li>
+                <li>Rare , old but still valuable</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+              </ol>
+
+            </div>
+                
+            
+        </section> <br><br> 
+        <hr>
+        <!-- section five ends here  -->
+
+
+        <!-- section six starts here  -->
+        <section class="row">
+            <h1><i><b><center>WOODWIND INSTRUMENTS</center></b></i></h1>
+            <div class="col-lg-2 text-center">
+                <div class="card shadow">
+                    <div class="card-header">
+                        <h4><i><b>Picollo</b></i></h4>
+                        
+                    </div>
+                    <div class="card-body bg-dark">
+                        <img src="images/picollo.woodwind.jpg" alt="" width="100%" height="250px">
+                    </div>
+                    <div class="card-footer">
+                        <p>The piccolo is a small woodwind instrument producing very high, bright sounds, often heard above orchestras and bands.</p>
+                        <b class="text-info">Ksh 55555</b>
+                        <br>
+                        <span class="badge bg-danger">2-month deal</span>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-2 text-center">
+                <div class="card-shadow">
+                    <div class="card-header">
+                        <h4><i><b>Clarinet</b></i></h4>
+                        
+                    </div>
+                    <div class="card-body bg-dark">
+                        <img src="images/clarinet.woodwind.jpg" alt="" width="100%" height="250px">
+                    </div>
+                    <div class="card-footer">
+                        <p>The clarinet is a woodwind instrument with a single reed, producing warm, flexible tones in bands orchestras and jazz music.</p>
+                        <b class="text-info">Ksh 23555</b>
+                        <br>
+                        <span class="badge bg-danger">3-piece deal</span>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-2 text-center">
+                <div class="card-shadow">
+                    <div class="card-header">
+                        <h4><i><b>Saxophone</b></i></h4>
+                        
+                    </div>
+                    <div class="card-body bg-dark">
+                        <img src="images/saxophone.woodwind.jpg" alt="" width="100%" height="250px">
+                    </div>
+                    <div class="card-footer ">
+                        <p>The saxophone is a brass-bodied woodwind instrument using a reed, known for expressive sound in jazz, bands, and orchestras.</p>
+                        <b class="text-info">Ksh 35305</b>
+                        <br>
+                        <span class="badge bg-danger">10% discount</span>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-2 text-center">
+                <div class="card-shadow">
+                    <div class="card-header">
+                        <h4><i><b>Sousaphone</b></i></h4>
+                        
+                    </div>
+                    <div class="card-body bg-dark">
+                        <img src="images/sousaphone.brass.jpg" alt="" width="100%" height="250px">
+                    </div>
+                    <div class="card-footer ">
+                        <p>The sousaphone is a large marching brass instrument that wraps around the body, providing deep bass support. Also reliable and cheap</p>
+                        <b class="text-info">Ksh 23555</b>
+                        <br>
+                        <span class="badge bg-danger">3-piece deal</span>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-lg-2 text-center">
+                <div class="card-shadow">
+                    <div class="card-header">
+                        <h4><i><b>Trombone</b></i></h4>
+                        
+                    </div>
+                    <div class="card-body bg-dark">
+                        <img src="images/trombone.woodwind.jpg" alt="" width="100%" height="250px">
+                    </div>
+                    <div class="card-footer">
+                        <p>The trombone is a brass instrument using a slide to change pitch, producing powerful, smooth tones in bands.</p>
+                        <b class="text-info">Ksh 23555</b>
+                        <br>
+                        <span class="badge bg-danger">3-piece deal</span>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-lg-2 text-center">
+                <div class="card-shadow">
+                    <div class="card-header">
+                        <h4><i><b>Yamaha</b></i></h4>
+                        
+                    </div>
+                    <div class="card-body bg-dark">
+                        <img src="images/yamaha.woodwind.jpg" alt="" width="100%" height="250px">
+                    </div>
+                    <div class="card-footer">
+                        <p>Yamaha is a Japanese company producing musical instruments, motorcycles, electronics, and audio equipment known for reliability innovation.</p>
+                        <b class="text-info">Ksh 23555</b>
+                        <br>
+                        <span class="badge bg-danger">3-piece deal</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- section six ends here  -->
+         <br> <br>
+         <hr>
+         <!-- section  seven starts here  -->
+           <section class="row" id="section7">
+            <h2 style="color: brown;text-decoration: dashed;"><i><b><center>PERCUSSION INSTRUMENTS</center></b></i></h2>
+            <div class="col-lg-3 text-center">
+                <img src="images/setofdrums.percussion.jpg" alt="" width="250px" height="250px">
+
+                <h5 style="color: rgb(99, 18, 92);">SET OF DRUMS</h5>
+                <p>A drum set is a collection of percussion instruments, including bass drum, snare, toms, hi-hat, and cymbals, played together to create rhythm and beats.</p>
+                <b class="text-primary">Ksh 5555</b> <br>
+                <span class="badge bg-success">deal</span>
+
+            </div>
+             <div class="col-lg-3 text-center">
+                <img src="images/tambourine.perc.jpg" alt="" width="250px" height="250px">
+
+                <h5 style="color: rgb(99, 18, 92);">TAMBOURINE</h5>
+                <p>A tambourine is a handheld percussion instrument with a circular frame and metal jingles, shaken or struck to add rhythm, sparkle, and texture to music.</p>
+                <b class="text-primary">Ksh 67833</b> <br>
+                <span class="badge bg-success">deal</span>
+
+            </div>
+             <div class="col-lg-3 text-center">
+                <img src="images/marimba.perc.jpg" alt="" width="250px" height="250px">
+
+               <center> <h5 style="color: rgb(99, 18, 92);">MARIMBO</h5></center>
+                <p>A marimba is a percussion instrument with wooden bars arranged like a piano, played with mallets, producing warm, resonant tones used in classical and modern music.</p>
+                <b class="text-primary">Ksh59031</b> <br>
+                <span class="badge bg-succes">deal</span>
+
+            </div>
+
+             <div class="col-lg-3 text-center">
+                <img src="images/the-snare-drum-one-of-music-s-most-essential-instruments.jpg" alt="" width="250px" height="250px">
+
+               <center> <h5 style="color: rgb(99, 18, 92);">SNARE DRUM</h5></center>
+                <p>A snare drum is a percussion instrument with a cylindrical shell and metal snares beneath, producing sharp, crisp sounds when struck, essential in marching bands and drum kits.</p>
+                <b class="text-primary">Ksh 49063</b> <br>
+                <span class="badge bg-success">Worth</span>
+
+            </div>
+            
+            
+
+
+        </section> <br>
+         <hr> <hr>
+
+          <!-- section seven ends here  -->
+
+         <!-- section eight statrs here  -->
+          <section class="row" id="footer" >
+          <div class="col-lg-3  p-3" style="color: rgb(41, 32, 32);">
+            <center><h3 style="padding-top: 30px;">About Us</h3></center>
+           <p style="color: rgb(88, 12, 12);"><i><center>Our music shop offers a wide range of instruments, from guitars and pianos to brass, woodwinds, and percussion. We provide high-quality instruments, accessories, and expert advice for beginners, students, and professional musicians.</center></i></p>
+           <p>
+            <ul>
+                <li>Find us in Nairobi Langata Road music base 2nd floor</li>
+                <li>We are also located in Eldoret Zion Mall</li>
+            </ul>
+           </p>
+         </div>
+          <div class="col-lg-3 ">
+          <h4 class="text-center" style="color: brown; padding-top: 30px;"><i>Contact us</i></h4>
+
+         <form>
+
+        <textarea cols="40" rows="10" placeholder="Share feedback"></textarea>
+        <br>
+
+        <input type="submit" value="Send  Message" class="btn-outline-danger">
+        </form>
+         </div>
+
+
+
+           <div class="col-lg-3">
+         <h4 class="text-white text-center" style="padding-top: 30px;">You can find us here</h4>
+
+         <a href="https://www.facebook.com/login/">
+        <img src="images/fb.png" alt="">
+         </a>
+
+         <a href="https://www.instagram.com/">
+           <img src="images/in.png" alt="">
+        </a>
+
+         <a href="https://www.x.com">
+          <img src="images/x.png" alt="">
+         </a>
+
+          <p style="color: rgb(66, 3, 3); padding-top: 30px;"><i><center>You can find us in our instagram, twitter and facebook handles @musicbase.Reach out and spread word and posts</center></i></p>
+        </div>
+
+        <div class="col-lg-3">
+            <p style="padding-top: 30px; font-size: 65px;"><center><i>We also offer traditional</i></center></p>
+         <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators (dots) -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="1"></button>
+
+      </div>
+
+      <!-- Images -->
+      <div class="carousel-inner p-5">
+
+        <div class="carousel-item active">
+          <img src="images/footer1.jpg" class="d-block w-100" alt="" height="300px" width="400px">
+          <div class="carousel-caption d-none d-md-block " style="color: rgb(33, 27, 27); text-decoration-color: rgb(204, 217, 23);">
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/footer2.jpg" class="d-block w-100" alt="Trending Fashion" height="300px" width="400px">
+          <div class="carousel-caption d-none d-md-block " style="color: rgb(12, 193, 75); text-decoration-color: black;">
+        </div>
+         </section>
+          
+       <footer class="text-center p-2 ">
+          <b class="bg-secondary">Developed By Paul Mungah &COPY; 2026 All rights served</b>
+        </footer>
+        <!-- section eigth ends here  -->
+    </body>
+</html>
